@@ -26,6 +26,8 @@ group :tests do
   gem 'capybara'
   gem 'faker'
   gem 'database_cleaner'
+  gem 'webmock'
+  gem 'simplecov'
 end
 
 gem 'jquery-rails'

@@ -6,6 +6,10 @@ require 'rspec/autorun'
 require 'shoulda-matchers'
 require 'factory_girl'
 require 'database_cleaner'
+require 'webmock/rspec'
+require 'simplecov'
+
+SimpleCov.start
 
 Dir[Rails.root.join("spec/support/**/*.rb")].each { |f| require f }
 Dir[Rails.root.join('spec/factories/**/*.rb')].each { |f| require f }
